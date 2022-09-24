@@ -15,7 +15,6 @@ export const GroupChannelListScreen = () => {
   const navigation = useNavigation<any>();
   return (
     <GroupChannelListFragment
-    
       onPressCreateChannel={channelType => {
         // Navigate to GroupChannelCreate function.
         navigation.navigate('GroupChannelCreate', {channelType});
