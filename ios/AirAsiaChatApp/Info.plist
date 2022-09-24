@@ -51,5 +51,17 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+<key>NSAppleMusicUsageDescription</key>
+  <string>Air Asia Chat app will use Apple Music for sending messages</string>
+  <key>NSCalendarsUsageDescription</key>
+  <string>Air Asia Chat app will use Calendar for sending messages</string>
+  <key>NSCameraUsageDescription</key>
+  <string>Air Asia Chat app will use Camera for sending messages</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Air Asia Chat app will use Microphone for sending messages</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Air Asia Chat app will use Photo Library for sending messages</string>
+  <key>NSPhotoLibraryAddUsageDescription</key>
+  <string>Air Asia Chat app will use Photo Library for sending messages</string>
 </dict>
 </plist>
