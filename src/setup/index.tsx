@@ -1,14 +1,12 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React, {useEffect} from 'react';
 import {
   SendbirdUIKitContainer,
   useSendbirdChat,
-  useConnection,
 } from '@sendbird/uikit-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
-
+import Notifee from '@notifee/react-native';
 import SignInScreen from '../screens/SignIn';
 import HomeScreen from '../screens/Home';
 import {
@@ -22,12 +20,20 @@ import {
   NotificationService,
   ClipboardService,
 } from '../helpers/sendBirdHelpers';
+import {onForegroundAndroid, onForegroundIOS} from '../helpers/notification';
 
 const RootStack = createNativeStackNavigator();
 
 const Navigation = () => {
   const {currentUser} = useSendbirdChat();
 
+  useEffect(() => {
+    Notifee.setBadgeCount(0);
+    const unsubscribes = [onForegroundAndroid(), onForegroundIOS()];
+    return () => {
+      unsubscribes.forEach(fn => fn());
+    };
+  }, []);
   return (
     <NavigationContainer>
       <RootStack.Navigator screenOptions={{headerShown: false}}>
