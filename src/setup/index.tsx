@@ -15,6 +15,7 @@ import {
   GroupChannelListScreen,
   GroupChannelCreateScreen,
   GroupChannelScreen,
+  GroupChannelSettingsScreen,
 } from '../screens/index';
 import {
   FileService,
@@ -42,6 +43,10 @@ const Navigation = () => {
             <RootStack.Screen
               name={'GroupChannelCreate'}
               component={GroupChannelCreateScreen}
+            />
+            <RootStack.Screen
+              name={'GroupChannelSettings'}
+              component={GroupChannelSettingsScreen}
             />
             <RootStack.Screen
               name={'GroupChannel'}

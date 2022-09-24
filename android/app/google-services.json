@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "377884363993",
+    "project_id": "airasiachatapp",
+    "storage_bucket": "airasiachatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377884363993:android:1981ea37cf24583ba982c8",
+        "android_client_info": {
+          "package_name": "com.airasiachatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377884363993-dk5mc9vb2600ohl1i3scferd1ncgmdjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_bqiWNQsE6Ym5N5tG__hdtVlljryZP8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377884363993-dk5mc9vb2600ohl1i3scferd1ncgmdjp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "377884363993-1etacc134951s1cvd3ouijrr19vafomd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.AirAsiaChatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

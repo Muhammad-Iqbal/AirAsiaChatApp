@@ -373,7 +373,7 @@ PODS:
   - React-jsinspector (0.70.1)
   - React-logger (0.70.1):
     - glog
-  - react-native-cameraroll (5.0.2):
+  - react-native-cameraroll (4.1.2):
     - React-Core
   - react-native-document-picker (8.1.1):
     - React-Core
@@ -533,7 +533,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
-  - "react-native-cameraroll (from `../node_modules/@react-native-camera-roll/camera-roll`)"
+  - "react-native-cameraroll (from `../node_modules/@react-native-community/cameraroll`)"
   - react-native-document-picker (from `../node_modules/react-native-document-picker`)
   - react-native-file-access (from `../node_modules/react-native-file-access`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
@@ -647,7 +647,7 @@ EXTERNAL SOURCES:
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-cameraroll:
-    :path: "../node_modules/@react-native-camera-roll/camera-roll"
+    :path: "../node_modules/@react-native-community/cameraroll"
   react-native-document-picker:
     :path: "../node_modules/react-native-document-picker"
   react-native-file-access:
@@ -749,7 +749,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 47201924064085223b63ec7e3ee9fd40ad8508e8
   React-jsinspector: 1363be638eccfe1aea1b10dd42e632b0397e5ec8
   React-logger: 7bd569e3857d74ed412ce0a5c51f421ff7d4ca7f
-  react-native-cameraroll: 4d0cb1c3413d4b7b85beb68a8c14325d887b404c
+  react-native-cameraroll: 2957f2bce63ae896a848fbe0d5352c1bd4d20866
   react-native-document-picker: f68191637788994baed5f57d12994aa32cf8bf88
   react-native-file-access: 204693d308701ba232dcf91facef05498fcde9a2
   react-native-image-picker: 4bc9ed38c8be255b515d8c88babbaf74973f91a8
