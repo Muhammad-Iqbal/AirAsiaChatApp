@@ -10,10 +10,12 @@ import {
   ClipboardService,
 } from '../helpers/sendBirdHelpers';
 
+import {APP_ID} from '../helpers/sendBirdHelpers';
+
 const ChatAppParent = () => {
   return (
     <SendbirdUIKitContainer
-      appId={'D6CE2DFE-FDA2-48E5-97F9-FFB71EF75033'}
+      appId={APP_ID}
       chatOptions={{localCacheStorage: AsyncStorage}}
       platformServices={{
         file: FileService,
